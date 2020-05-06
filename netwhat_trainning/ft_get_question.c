@@ -6,7 +6,7 @@
 /*   By: jteixeir <jteixeir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/05/05 14:59:07 by jteixeir          #+#    #+#             */
-/*   Updated: 2020/05/06 13:39:55 by jteixeir         ###   ########.fr       */
+/*   Updated: 2020/05/06 20:43:20 by jteixeir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -64,21 +64,3 @@ int ft_get_txt(char **question, int fd)
     }
     return(ft_get_question(x, question, fd));
 }
-
-
-/*int main(void)
-{
-    char *question;
-    int fd = open("/home/jteixeir/Desktop/netwhat_test/quiz.txt", O_RDONLY);
-    int i;
-
-    i = 0;
-    while (i < 2)
-    {
-        ft_get_txt(&question, fd);
-        printf("minha questão é: \n\n%s", question);
-        i++;
-    }
-    return(0);
-    
-}*/

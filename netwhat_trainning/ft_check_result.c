@@ -1,26 +1,23 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_get_answer.c                                    :+:      :+:    :+:   */
+/*   ft_check_result.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: jteixeir <jteixeir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/05/06 13:54:53 by jteixeir          #+#    #+#             */
-/*   Updated: 2020/05/06 16:49:00 by jteixeir         ###   ########.fr       */
+/*   Created: 2020/05/06 20:19:36 by jteixeir          #+#    #+#             */
+/*   Updated: 2020/05/06 20:44:00 by jteixeir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "lib.h"
 
-int     ft_get_answer(void)
+void ft_check_result(char *a)
 {
-    static char user_answer[11] = "0000000000";
-    int a = 0;
-    static int i = 0;
-
-    printf("\nyour answer:\t");
-    scanf("%d", &a);
-    user_answer[i++]= (char)a + 48;
-    printf("your answer was: %s", user_answer);
-    return(1);
+    char check[21] = "11111111111111111111";
+    int result;
+    result = strcmp(check, ft_get_answer);
+    printf("%d", result);
+    
+    return(result);
 }
