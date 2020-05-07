@@ -6,7 +6,7 @@
 /*   By: jteixeir <jteixeir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/04/29 15:11:18 by jteixeir          #+#    #+#             */
-/*   Updated: 2020/05/06 20:42:45 by jteixeir         ###   ########.fr       */
+/*   Updated: 2020/05/07 16:56:42 by jteixeir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,6 +43,6 @@ int ft_get_txt(char **question, int fd);
 char	*ft_strjoin(char const *s1, char const *s2);
 char	*ft_substr(char const *s, unsigned int start, size_t len);
 char     *ft_get_answer(void);
-void     ft_check_result(void);
+void     ft_check_result(char *a);
 
 #endif
