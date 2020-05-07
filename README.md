@@ -16,3 +16,6 @@
 14. How does routing work with IP?
 15. What is a default gateway for routing?
 16. What is a port from an IP point of view and what is it used for when connectingto another device?
+
+# netwhat trainning
+![Screenshot from 2020-05-07 14-03-50](https://user-images.githubusercontent.com/61021800/81323374-a86f7a80-906b-11ea-89b6-51d30b785be3.png)
