@@ -6,16 +6,16 @@
 /*   By: jteixeir <jteixeir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/05/05 14:59:07 by jteixeir          #+#    #+#             */
-/*   Updated: 2020/05/06 20:43:20 by jteixeir         ###   ########.fr       */
+/*   Updated: 2020/05/07 18:32:10 by jteixeir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "lib.h"
 
-int    ft_get_question(char **x, char **question, int fd)
+int     ft_get_question(char **x, char **question, int fd)
 {
-    int i = 0;
-    char *aux;
+    int     i = 0;
+    char    *aux;
 
     while (x[fd][i] != '@' && x[fd][i])
         i++;
@@ -56,9 +56,7 @@ int ft_get_txt(char **question, int fd)
             aux = ft_strjoin(x[fd], buffer);
             free(x[fd]);
             x[fd] = strdup(aux);
-        }
-        
-
+        } 
         if (strchr (x[fd], '@'))
             break ;
     }

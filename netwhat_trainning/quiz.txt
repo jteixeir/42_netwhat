@@ -100,13 +100,14 @@ The _______________translates internet domain and host names to IP address.
 4) routing information protocol
 @
 Question 13
-What is the network address of a host whit an IP address of 109.49.91.177/25?
+What is the network address of a host with an IP address of 109.49.91.177/25?
 1) 109.49.64.0
 2) 109.49.80.0
 3) 109.0.0.0
 4) 109.49.90.0
 5) 109.49.0.0
 6) 109.49.91.76
+7) 109.49.91.128
 @
 Question 14
 What is the default subnet mask for a class C network?

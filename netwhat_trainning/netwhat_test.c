@@ -6,7 +6,7 @@
 /*   By: jteixeir <jteixeir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/04/29 16:43:46 by jteixeir          #+#    #+#             */
-/*   Updated: 2020/05/07 17:00:27 by jteixeir         ###   ########.fr       */
+/*   Updated: 2020/05/07 18:34:40 by jteixeir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,12 +14,10 @@
 
 int    main(void)
 {
-    char *question;
-    int fd = open("quiz.txt", O_RDONLY);
-    int i;
-    char *a;
-
-    i = 0;
+    char    *question;
+    int     fd = open("quiz.txt", O_RDONLY);
+    int     i = 0;
+    char    *a;
 
     ft_intro();
     ft_timer();

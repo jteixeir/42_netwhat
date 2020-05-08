@@ -6,7 +6,7 @@
 /*   By: jteixeir <jteixeir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/04/27 17:36:01 by jteixeir          #+#    #+#             */
-/*   Updated: 2020/05/06 20:43:19 by jteixeir         ###   ########.fr       */
+/*   Updated: 2020/05/08 16:44:49 by jteixeir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,8 +15,8 @@
 void    ft_accept(char a)
 {
     if (a == 'y' || a == 'Y')
-        printf(CYAN "\n\n• ========================================================== •");
-        printf("\n\n\t\t     Great, let's do it!\n\t\t\tGood Luck!!\n\n" COLOR_RESET);      
+        printf(CYAN "\n\n• ================================================================= •");
+        printf("\n\n\t\t       Great, let's do it!\n\t\t\tGood Luck!!\n\n" COLOR_RESET);      
 }
 
 char    ft_ready(void)
@@ -42,6 +42,7 @@ void    ft_deny(char a)
     {
         printf("Ok, take your time.\n");
         printf("Click 'y' when you ready!\n");
+        printf("If you want to give up select Ctrl + C.\n\n");
         scanf(" %c", &b);
         if (b == 'y')
             ft_accept(b);
