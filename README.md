@@ -1,21 +1,27 @@
 # 42_netwhat
+This project is mainly a introduction to network problematics.
 
-1. What is a Network?
-2. What is an IP address?
-3. What is a Netmask?
-4. What is the subnet of an IP with Netmask?
-5. What is the broadcast address of a subnet?
-6. What are the different ways to represent an ip address with the Netmask?
-7. What are the differences between public and private IPs?
-8. What is a class of IP addresses◦What is TCP?
-9. What is UDP◦What are the network layers?
-10. What is the OSI model?
-11. What is a DHCP server and the DHCP protocol?
-12. What is a DNS server and the DNS protocol?
-13. What are the rules to make 2 devices communicate using IP addresses?
-14. How does routing work with IP?
-15. What is a default gateway for routing?
-16. What is a port from an IP point of view and what is it used for when connectingto another device?
+### Contents
+**[netwhat_trainning](./netwhat_trainning) folder:** Quiz developed to check your score before the real one.
 
-# netwhat trainning
-![Screenshot from 2020-05-07 14-03-50](https://user-images.githubusercontent.com/61021800/81323374-a86f7a80-906b-11ea-89b6-51d30b785be3.png)
+**root folder:** the answer key submitted.
+
+### Net What Trainning Test
+
+- Download the file "netwhat_trainning" as above.
+- Go to the downloaded file.
+- Then, in your terminal type:
+
+``make``
+``./a.out``
+
+![Screenshot from 2020-05-08 17-03-55](https://user-images.githubusercontent.com/61021800/81444703-f3fa5500-914d-11ea-95d2-c0f44999f94b.png)
+
+- Click "y" to start your test and good luck. :blue_heart:
+
+### Authors
+[Jess Teixeira](https://github.com/jteixeir)
+
+Supported by:
+
+[Léo Ramos](https://github.com/leocarneiro) and [Juan Lamarão](https://github.com/juanlamarao)
