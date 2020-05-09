@@ -23,5 +23,11 @@ This project is mainly a introduction to network problematics.
 [Jess Teixeira](https://github.com/jteixeir)
 
 Supported by:
-
 [Léo Ramos](https://github.com/leocarneiro) and [Juan Lamarão](https://github.com/juanlamarao)
+
+### References
+
+- [Figlet](http://www.figlet.org/)
+- [Netwhat studies summary](https://github.com/appinha/42cursus/tree/master/01-netwhat) by [Amanda P. Pinha](https://github.com/appinha)
+- [Netwhat ip calculator](https://github.com/appinha/42cursus/tree/master/01-netwhat/apuchill-ip_calc) by [Amanda P. Pinha](https://github.com/appinha)
+- [Network Fundamentals Playlist](https://www.youtube.com/playlist?list=PLDQaRcbiSnqF5U8ffMgZzS7fq1rHUI3Q8) to those who want to go deeper
