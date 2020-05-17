@@ -25,6 +25,10 @@ This project is mainly a introduction to network problematics.
 Supported by:
 [Léo Ramos](https://github.com/leocarneiro) and [Juan Lamarão](https://github.com/juanlamarao)
 
+### Improvement wishes
+- Timer: count down 10min and stop the quiz.
+- Random questions: Choose from a txt with more than 60 questions randomly.
+
 ### References
 
 - [Figlet](http://www.figlet.org/)
